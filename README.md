@@ -1,6 +1,6 @@
 # Git Adventure
 
-A "Choose Your Own Adventure" story written by everyone at the ATU Software Development Society Git & GitHub workshop.
+A "Choose Your Own Adventure" story written by Fionn Qualter for the Git & GitHub workshop.
 
 Every scene is its own file. Every choice is a link to another scene. You add to the story the same way you'll work on a real group project: on a branch, through a Pull Request.
 
