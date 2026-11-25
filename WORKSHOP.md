@@ -2,7 +2,7 @@
 
 Follow along with the screen at the front. Wherever you see `your-username`, put your own GitHub username instead.
 
-If you get stuck, put your hand up. Getting stuck is part of the workshop.
+If you get stuck, put your hand up and a helper will come over.
 
 ---
 
@@ -38,7 +38,7 @@ cd git-adventure
 
 ## Round 1: Write your own scene
 
-Nobody edits the same file in this round, so nothing can go wrong.
+Everyone writes a different file in this round, so there are no conflicts yet.
 
 ### 1. Make a branch
 
@@ -89,13 +89,11 @@ A **Pull Request** (PR) is you asking for your branch to be added into `main`.
 3. Click **Create pull request**.
 4. Click **Merge pull request**, then **Confirm merge**.
 
-Your scene is now part of the story.
-
 ---
 
 ## Round 2: Link your scene into the story
 
-Right now nothing in the story points to your scene. Fix that.
+Nothing in the story points to your scene yet. In this round you add a choice that leads to it.
 
 ### 1. Get the latest version of main
 
@@ -174,9 +172,7 @@ git push -u origin your-username-hero
 
 ### 4. Open a Pull Request, but DON'T merge yet
 
-Open the PR, then wait. One PR gets merged on the screen. Every other PR will then show a **conflict**: two people changed the same line, and Git can't decide which one to keep.
-
-Fix yours using the steps below.
+Open the PR, then wait. One PR gets merged on the screen. After that, every other PR shows a **conflict**, because two people changed the same line and Git can't decide which one to keep. Fix yours with the steps below.
 
 ---
 
@@ -234,9 +230,7 @@ git commit -m "Fix merge conflict in start.md"
 git push
 ```
 
-Go back to your Pull Request. The conflict warning is gone. Click **Merge pull request**.
-
-That's it. You just did the thing that panics most people on group projects.
+Go back to your Pull Request. The conflict warning is gone, so you can click **Merge pull request**.
 
 ---
 
